@@ -9,7 +9,7 @@ import (
 
 func main() {
 	logger.Init()
-	utils.PrintBanner() // ✅ Ensure the banner prints
-	fmt.Println("🚀 Running Primix CLI...") // Debugging output
+	utils.PrintBanner() 
+	fmt.Println("🚀 Running Primix CLI...") 
 	cmd.Execute()
 }
